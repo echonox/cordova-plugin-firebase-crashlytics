@@ -35,8 +35,10 @@
       </feature>
     </config-file>
 
-    <preference name="ANDROID_FIREBASE_CORE_VERSION" default="16.0.0"/>
+    <preference name="ANDROID_FIREBASE_CORE_VERSION" default="+"/>
+    <preference name="ANDROID_CRASHLYTICS_CORE_VERSION" default="+"/>
     <framework src="com.google.firebase:firebase-core:$ANDROID_FIREBASE_CORE_VERSION"/>
+    <framework src="com.crashlytics.sdk.android:crashlytics:$ANDROID_CRASHLYTICS_CORE_VERSION"/>
     <framework src="org.json:json:20171018"/>
     <framework src="firebase-crashlytics.gradle" custom="true" type="gradleReference"/>
 
