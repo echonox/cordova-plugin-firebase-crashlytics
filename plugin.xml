@@ -39,7 +39,6 @@
     <preference name="ANDROID_CRASHLYTICS_CORE_VERSION" default="+"/>
     <framework src="com.google.firebase:firebase-core:$ANDROID_FIREBASE_CORE_VERSION"/>
     <framework src="com.crashlytics.sdk.android:crashlytics:$ANDROID_CRASHLYTICS_CORE_VERSION"/>
-    <framework src="org.json:json:20171018"/>
     <framework src="firebase-crashlytics.gradle" custom="true" type="gradleReference"/>
 
     <source-file src="src/android/uk/co/reallysmall/cordova/plugin/firebase/crashlytics/FirebaseCrashlyticsPlugin.java" target-dir="src/uk/co/reallysmall/cordova/plugin/firebase/crashlytics"/>
